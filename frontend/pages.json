@@ -1,0 +1,47 @@
+{
+	"pages": [ //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+		{
+			"path": "pages/index/index",
+			"style": {
+				"navigationBarTitleText": "还活着",
+				"navigationStyle": "custom"  // 禁用原生导航栏
+			}
+		},
+		{
+			"path": "pages/setting/setting",
+			"style": {
+				"navigationBarTitleText": "设置",
+				"navigationStyle": "custom"  // 禁用原生导航栏
+			}
+		},
+		{
+			"path": "pages/notification/notification",
+			"style": {
+				"navigationBarTitleText": "推送管理",
+				"navigationStyle": "custom"  // 禁用原生导航栏
+			}
+		},
+		{
+			"path": "pages/add-notification/add-notification",
+			"style": {
+				"navigationBarTitleText": "添加推送目标",
+				"navigationStyle": "custom"  // 禁用原生导航栏
+			}
+		},
+		{
+			"path": "pages/calendar/calendar",
+			"style": {
+				"navigationBarTitleText": "日历",
+				"navigationStyle": "custom"  // 禁用原生导航栏
+			}
+		}
+	],
+	"globalStyle": {
+		"navigationBarTextStyle": "black",
+		"navigationBarTitleText": "还活着",
+		"navigationBarBackgroundColor": "#F8F8F8",
+		"backgroundColor": "#F8F8F8",
+		"navigationStyle": "custom"  // 全局禁用原生导航栏
+	},
+	"uniIdRouter": {}
+}
