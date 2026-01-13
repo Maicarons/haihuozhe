@@ -49,4 +49,4 @@ coverage/
 *.key
 *.crt
 
-.trae
+.trae/
